@@ -1,0 +1,302 @@
+*{text-align: start;
+    color: var(--link-color);}
+    :root {
+        --primary-color: #414042;
+        --secondary-color: #58595B;
+        --tertiary-color: #111111;
+        --link-color: white;
+        --link-hover-color: #1a212c;
+        --dark-color: #1e1e1f;
+        --black-color: #0d0d0e;
+      }
+.AboutMainDiv{background-color:var(--tertiary-color);
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position: relative;
+    padding-top: 30px;
+}
+.AboutDiv2ImageDiv{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    background-image: url('../assets/cubes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.AboutDiv2Image{width: 100%; height: fit-content;}
+
+.AboutHeaderDiv{
+    position: absolute;
+    margin-left: 10%;
+    
+}
+.AboutHeaderDiv h1{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: start;
+}
+.AboutHeaderDiv p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.AboutintroDivDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+    margin-top: 100px;
+    
+}
+
+.AboutintroDivDiv div{
+    height: 280px;
+    width:580px ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: start;
+    justify-content: center;
+    margin: 20px;
+    
+    border-radius: 30px;
+}
+.AboutintroDivDiv div img{
+ 
+    height: fit-content;
+    width: inherit;
+    
+    
+}
+.AboutintroDivDiv div h2{
+ 
+   margin-bottom: 30px;    
+    
+}
+.AboutintroDiv{
+    align-items: start;
+    position: relative;
+}
+.AboutServicesDiv{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100vw;
+    
+}
+.AboutServicesDiv h2{
+   position: relative;
+
+   
+}
+
+.emptyDiv1{
+ width: 32%;
+}
+.background-fixed {
+    background-image: url('../assets/room.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+    position: relative;
+}
+.background-fixed div {
+    
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+   background-color: #0000009a;
+    position: relative;
+    padding: 16px;
+    border-radius: 30px;
+}
+.background-fixed div h2 {
+    
+
+   
+    position: relative;
+}
+.WhyChooseDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  
+    margin: 30px 0;
+}
+.WhyChooseDiv h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 16px;
+}
+.emptyDiv2{
+    width: 40%;
+}
+.ContactButton{
+    padding: 10px 100px;
+    background-color: var(--black-color);
+    box-shadow: 0px 0px 0px 0px var(--link-color) ;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 50px;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    
+}
+.ContactButton:hover{
+    box-shadow: 1px 2px 10px 2px var(--link-color) ;
+    transform: scale(1.05);
+}
+
+.AboutHeaderDivx{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100% ;
+ 
+
+    
+}
+.AboutHeaderDivx h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: start;
+    position: relative;
+        width: 500px; 
+}
+.AboutDiv2ImageDivx{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    background-image: url('../assets/blueblock.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+@media (max-width: 768px){
+    .AboutDiv2ImageDiv{
+        width: 100%;
+        height: 400px;
+    }
+    *{text-align: center;}
+    .AboutMainDiv{
+        padding-top: 50px;
+    }
+    .AboutintroDivDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+        margin-top: 30px;
+        
+    }
+    .AboutintroDivDiv div{
+        height: 30vh;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        
+        border-radius: 30px;
+    }
+    .AboutintroDivDiv div img{
+ 
+        height: inherit;
+        width: inherit;
+        
+        
+    }
+    .AboutHeaderDiv h1{
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        text-align: start;
+    }
+    .AboutHeaderDiv p{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .background-fixed {
+        background-image: url('../assets/room.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 0;
+        
+        position: relative;
+    }
+    .background-fixed div {
+      margin: 10px 20px;
+    }
+    .AboutDiv2ImageDivx{
+        height: 250px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+        display: flex;
+    }
+    .AboutDiv2Imagex{width:auto; height: 100%; position: absolute;}
+    .AboutHeaderDivx{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+       
+        width:100% ;
+        margin: 25px;
+     
+    }
+    .AboutHeaderDivx h2{
+       font-size: 25px;
+       width: 300px;
+       
+     
+    }
+    .ContactButton{
+        padding: 10px 70px;
+        background-color: var(--black-color);
+        box-shadow: 0px 0px 0px 0px var(--link-color) ;
+        border-radius: 30px;
+        text-align: center;
+        margin-top: 50px;
+        transition: transform 0.3s ease-in-out;
+        position: relative;
+        
+        
+    }
+}

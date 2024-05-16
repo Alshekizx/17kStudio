@@ -1,0 +1,65 @@
+*{text-align: start;
+    color: var(--link-color);}
+    :root {
+        --primary-color: #414042;
+        --secondary-color: #58595B;
+        --tertiary-color: #111111;
+        --link-color: white;
+        --link-hover-color: #1a212c;
+        --dark-color: #1e1e1f;
+        --black-color: #0d0d0e;
+      }
+      .ProjectDiv{
+        background-color:var(--tertiary-color);
+        
+        
+
+      }
+      .ProjectDiv2{
+        padding-top: 200px;
+        display: flex;
+        margin-left: 16px;
+        
+      }
+      .ProjectDiv2 h2{
+        margin-bottom: 100px;
+        font-weight: 400;
+        font-size: 40px;
+        width: 500px;
+        line-height: 1;
+      }
+      .ProjectEmpty{
+        width:50%;
+      }
+      .ProjectDivLine{
+        border-top: solid 2px var(--primary-color);
+        width: 98%;
+        margin-bottom: 50px;
+      }
+      .ProjectCardDiv{
+        display: flex;
+        flex-wrap: wrap;
+      }
+    
+      @media (max-width: 768px){
+        .ProjectDiv2{
+        padding-top: 150px;
+        display: flex;
+        margin-left: 16px;
+        
+      }
+      .ProjectDiv2 h2{
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 30px;
+        width: 300px;
+        line-height: 1;
+      }
+      .ProjectCardDiv{
+        display: flex;
+        flex-direction: column;
+      }
+    
+      
+        
+      }
