@@ -26,7 +26,7 @@
     overflow: hidden;
     align-items: center;
     display: flex;
-    background-image: url('../assets/cubes.jpg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/myportfolio-96ac3.appspot.com/o/assets%2Fcubes.jpg?alt=media&token=0dcc3861-4768-452b-b06f-9c91277c8224');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -102,7 +102,7 @@
  width: 32%;
 }
 .background-fixed {
-    background-image: url('../assets/room.jpeg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/myportfolio-96ac3.appspot.com/o/assets%2Froom.jpeg?alt=media&token=f32cf35a-7e1a-4d0e-8fcd-478e0428d2ed');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -119,8 +119,7 @@
     
     height: 300px;
     width: 300px;
-    display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: start;
    background-color: #0000009a;
@@ -130,7 +129,7 @@
 }
 .background-fixed div h2 {
     
-
+    margin-top: 25%;
    
     position: relative;
 }
@@ -193,7 +192,7 @@
     overflow: hidden;
     align-items: center;
     display: flex;
-    background-image: url('../assets/blueblock.jpg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/myportfolio-96ac3.appspot.com/o/assets%2Fblueblock.jpg?alt=media&token=31ae23de-8180-42c4-8a34-747dc17a7b86');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;

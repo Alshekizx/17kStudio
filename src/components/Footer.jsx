@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 export default function Footer() {
   return (
@@ -12,10 +13,18 @@ export default function Footer() {
           <div className="footerMainRight">
             <nav className="FooterNavbar">
               <ul className="footerNav">
-                <li className="footerNavList">Home</li>
-                <li className="footerNavList">Projects</li>
-                <li className="footerNavList">About</li>
-                <li className="footerNavList">Contact</li>
+                <li className="footerNavList">
+                  <Link to="/">Home</Link>
+                </li>
+                <li className="footerNavList">
+                  <Link to="/Project">Projects</Link>
+                </li>
+                <li className="footerNavList">
+                  <Link to="/About">About</Link>
+                </li>
+                <li className="footerNavList">
+                  <Link to="/Contact">Contact</Link>
+                </li>
               </ul>
             </nav>
           </div>

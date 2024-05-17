@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Body, Footer, About, Contact, Project } from "./components";
 import { useState, useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
@@ -12,7 +12,9 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      if (currentScrollY > lastScrollY) {
+      if (currentScrollY <= 2) {
+        setNavClass("NavDiv");
+      } else if (currentScrollY > lastScrollY) {
         setNavClass("NavDiv hide");
       } else {
         setNavClass("NavDiv");
@@ -30,7 +32,7 @@ function App() {
       <div className={navClass}>
         <div className="logoDiv">
           <img
-            src="../src/assets/17kStudio.png"
+            src="https://firebasestorage.googleapis.com/v0/b/myportfolio-96ac3.appspot.com/o/assets%2F17kStudio.png?alt=media&token=5130fe24-92f4-491b-a8c0-110f508bd073"
             alt="Logo"
             className="logo-img"
           />

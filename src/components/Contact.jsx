@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import "./Contact.css";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import firestore from "./firebase";
+import useScrollToTop from "./scrollToTop";
 
 export default function Contact() {
+  useScrollToTop();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [note, setNote] = useState("");

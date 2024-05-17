@@ -1,8 +1,6 @@
 import React from "react";
 import "./featuredWork.css";
 import { CardContainer } from "./canvas";
-import robot from "../assets/robot.jpeg";
-
 function FeaturedWork() {
   return (
     <div className="mainDiv">

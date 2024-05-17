@@ -1,11 +1,11 @@
 import React from "react";
 import "./body.css";
-import OIG4 from "../assets/OIG4.jpeg";
-import robot from "../assets/robot.jpeg";
+import useScrollToTop from "./scrollToTop";
 import PortfolioCard from "./PortfolioCard";
 import FeaturedWork from "./featuredWork";
 
 export default function Body() {
+  useScrollToTop();
   return (
     <div className="bodyDiv">
       <div className="bodyDiv2">
@@ -21,7 +21,7 @@ export default function Body() {
         <div className="bodyDiv2ImageDiv">
           <img
             className="bodyDiv2Image"
-            src={OIG4}
+            src="https://firebasestorage.googleapis.com/v0/b/myportfolio-96ac3.appspot.com/o/assets%2FOIG4.jpeg?alt=media&token=638746f5-80df-4fe4-a146-83c13a8b28ee"
             alt="Description of the image"
           />
         </div>
@@ -44,7 +44,7 @@ export default function Body() {
             <div className="bodyDiv3ImageDiv">
               <img
                 className="bodyDiv3Image"
-                src={robot}
+                src="https://firebasestorage.googleapis.com/v0/b/myportfolio-96ac3.appspot.com/o/assets%2Frobot.jpeg?alt=media&token=cd17032e-f84d-40f3-9855-088e7484ce51"
                 alt="Description of the image"
               />
             </div>
@@ -56,7 +56,6 @@ export default function Body() {
       </div>
 
       <PortfolioCard />
-      <FeaturedWork />
     </div>
   );
 }

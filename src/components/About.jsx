@@ -1,11 +1,12 @@
 import React from "react";
 import "./About.css";
-import cubes from "../assets/cubes.jpg";
-import blueblock from "../assets/blueblock.jpg";
+import useScrollToTop from "./scrollToTop";
+
 import Services from "./Service";
 import { Link } from "react-router-dom";
 
 const About = () => {
+  useScrollToTop();
   return (
     <div className="AboutMainDiv">
       <div className="AboutDiv2ImageDiv">
@@ -28,7 +29,11 @@ const About = () => {
           </p>
         </div>
         <div className="AboutintroImgDiv">
-          <img className="" src={cubes} alt="Description of the image" />
+          <img
+            className=""
+            src="https://firebasestorage.googleapis.com/v0/b/myportfolio-96ac3.appspot.com/o/assets%2Fcubes.jpg?alt=media&token=0dcc3861-4768-452b-b06f-9c91277c8224"
+            alt="Description of the image"
+          />
         </div>
       </div>
 
