@@ -43,10 +43,10 @@ function App() {
       </div>
       <div className="mainBody">
         <Routes>
-          <Route path="/" element={<Body />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/Project" element={<Project />} />
+          <Route path="/17kStudio/" element={<Body />} />
+          <Route path="/17kStudio/about" element={<About />} />
+          <Route path="/17kStudio/contact" element={<Contact />} />
+          <Route path="/17kStudio/Project" element={<Project />} />
         </Routes>
       </div>
       <Footer />

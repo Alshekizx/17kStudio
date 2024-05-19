@@ -3,6 +3,7 @@ import "./body.css";
 import useScrollToTop from "./scrollToTop";
 import PortfolioCard from "./PortfolioCard";
 import FeaturedWork from "./featuredWork";
+import { ThreeScene } from "./canvas";
 
 export default function Body() {
   useScrollToTop();
@@ -19,11 +20,7 @@ export default function Body() {
           </p>
         </div>
         <div className="bodyDiv2ImageDiv">
-          <img
-            className="bodyDiv2Image"
-            src="https://firebasestorage.googleapis.com/v0/b/myportfolio-96ac3.appspot.com/o/assets%2FOIG4.jpeg?alt=media&token=638746f5-80df-4fe4-a146-83c13a8b28ee"
-            alt="Description of the image"
-          />
+          <ThreeScene />
         </div>
       </div>
 

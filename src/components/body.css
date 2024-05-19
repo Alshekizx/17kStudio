@@ -40,7 +40,11 @@ color: var(--link-color);}
     border-radius: 20px;
     width: inherit;
   }
-  .bodyDiv2ImageDiv{width: 100; height: 100%;}
+  .bodyDiv2ImageDiv {
+    width: 100%;
+    height: 60vh; /* Set the desired height here */
+    position: relative;
+  }
   .bodyDivNavList{
     display: flex;
     flex-direction: row;

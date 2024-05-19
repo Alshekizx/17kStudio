@@ -5,6 +5,7 @@ import StarsCanvas from "./Stars";
 import CardContainer from "./cardComponent";
 import ServiceCard from "./serviceCard";
 import ProjectCard from "./projectCard";
+import ThreeScene from "./threejs";
 export {
   EarthCanvas,
   BallCanvas,
@@ -13,4 +14,5 @@ export {
   ComputersCanvas,
   StarsCanvas,
   ProjectCard,
+  ThreeScene,
 };
