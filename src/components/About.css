@@ -245,7 +245,7 @@
         font-weight: 400;
     }
     .background-fixed {
-        background-image: url('../assets/room.jpeg');
+        
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;

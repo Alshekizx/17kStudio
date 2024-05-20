@@ -70,7 +70,11 @@ export default function Project() {
           hashtag3="#graphic"
           ViewMore="https://www.behance.net/oluwaseadeyemi6"
         />
-        <ProjectCard backgroundImage="" title="Logos" hashtag3="#graphic" />
+        <ProjectCard
+          backgroundImage="https://firebasestorage.googleapis.com/v0/b/myportfolio-96ac3.appspot.com/o/assets%2FVires.png?alt=media&token=74b7a3be-d572-4a31-9834-30ad6ea92f74"
+          title="Logos"
+          hashtag3="#graphic"
+        />
       </div>
     </div>
   );
