@@ -33,7 +33,7 @@
   left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
-  transition: top 0.1s; /* Smooth transition for moving up and down */
+  transition: top 0.01s; /* Smooth transition for moving up and down */
   z-index: 1000; /* Ensure it stays on top of other content */
 }
 
